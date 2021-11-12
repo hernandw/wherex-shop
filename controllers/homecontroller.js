@@ -6,3 +6,12 @@ exports.mostrarMensaje = (req, res) =>{
         boton: true,
     } )
 }
+
+exports.mostrarUsuaurio = (req, res) =>{
+    res.render('usuario', {
+        nombrePagina: 'Usuarios',
+        tagline: 'Pagina de Usuarios',
+        barra: true,
+        boton: true,
+    } )
+}

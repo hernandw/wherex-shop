@@ -9,6 +9,7 @@
   "author": "Williams Hernandez",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^4.6.1",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.4"
   },
