@@ -1,6 +1,6 @@
 exports.mostrarMensaje = (req, res) =>{
     res.render('home', {
-        nombrePagina: 'DevJobs',
+        nombrePagina: 'Tienda de Productos WherEx',
         tagline: 'Pagina de prueba',
         barra: true,
         boton: true,
