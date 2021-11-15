@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
-const exphbs = require('express-handlebars');
+/* const exphbs = require('express-handlebars'); */
 const {router} = require('./routes');
 const path = require('path');
 const { get } = require('http');
@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname, "/public")));
 
 
 // Importar motor de plantillas handlebars
-app.set("view engine", "hbs");
+/* app.set("view engine", "hbs");
 
 app.engine(
   "hbs",
@@ -35,5 +35,5 @@ app.engine(
     layoutsDir: `${__dirname}/views/partials/`,
     extname: ".hbs",
   })
-);
+); */
 
