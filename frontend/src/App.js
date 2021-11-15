@@ -8,8 +8,8 @@ function App() {
         <a className="brand" href="/">WherEX Shop</a>
       </div>
       <div>
-        <a href="carrito.html">Carrito</a>
-        <a href="login.html">Iniciar Sesion</a>
+        <a href="/cart">Carrito</a>
+        <a href="/login">Iniciar Sesion</a>
       </div>
     </header>
     <main>
