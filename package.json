@@ -4,9 +4,10 @@
   "description": "Prueba Tecnica de WherEX",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "author": "Williams Hernandez",
+  "type": "module",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.6.1",
@@ -15,5 +16,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernandw/wherex-shop.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/hernandw/wherex-shop/issues"
+  },
+  "homepage": "https://github.com/hernandw/wherex-shop#readme"
 }
